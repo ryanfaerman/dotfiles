@@ -1,3 +1,5 @@
+# How I setup my new system (manually)
+
 - Adjust Trackpad Settings (System Preferences > Trackpad)
   - Tap to click
   - Secondary click

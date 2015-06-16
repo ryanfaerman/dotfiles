@@ -107,7 +107,6 @@ I probably should have a script to do this... but lazy. Plumber's pipes and all 
   # Don’t display the annoying prompt when quitting iTerm
   defaults write com.googlecode.iterm2 PromptOnQuit -bool false
   ```
-
 - Create new SSH key (https://help.github.com/articles/generating-ssh-keys/) or sometimes copy existing key
 - Add key to github/stash/etc
 - Make some standard dirs

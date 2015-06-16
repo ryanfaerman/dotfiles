@@ -13,12 +13,15 @@
   ```
   brew install caskroom/cask/brew-cask
   brew tap homebrew/services
+  brew tap domt4/autoupdate
+  brew autoupdate --start
   ```
 - Start installing some stuff
 
   ```
-  brew install vim tree mercurial bazaar wget z
+  brew install vim tree mercurial bazaar wget z libyaml
   brew install chruby ruby-install mongodb mysql postgresql redis node
+  brew install syncthing
   brew cask install iterm2 sublime-text flux slack hosts launchrocket sequel-pro unrarx 1password dropbox
   ```
 
@@ -99,3 +102,10 @@
   # Don’t display the annoying prompt when quitting iTerm
   defaults write com.googlecode.iterm2 PromptOnQuit -bool false
   ```
+
+- Create new SSH key (https://help.github.com/articles/generating-ssh-keys/) or sometimes copy existing key
+- Add key to github/stash/etc
+- Make some standard dirs
+  - `~/repos`
+  - `~/go`
+  - `~/sync` (if using syncthing)

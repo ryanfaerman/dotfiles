@@ -1,5 +1,8 @@
 # How I setup my new system (manually)
 
+I probably should have a script to do this... but lazy. Plumber's pipes and all that.
+
+
 - Adjust Trackpad Settings (System Preferences > Trackpad)
   - Tap to click
   - Secondary click

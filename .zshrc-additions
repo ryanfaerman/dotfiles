@@ -6,7 +6,7 @@ plugins=(git wd brew)
 
 
 # Add the things below
-alias git-authers="git log --format'%aN" | sort -u
+alias git-authors="git log --format'%aN" | sort -u
 alias reload!="source ~/.zshrc"
 alias speedtest="speedtest-cli"
 

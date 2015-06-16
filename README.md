@@ -24,7 +24,8 @@ I probably should have a script to do this... but lazy. Plumber's pipes and all 
 - Start installing some stuff
 
   ```
-  brew install vim tree mercurial bazaar wget z libyaml
+  brew install vim tree mercurial bazaar wget z libyaml ssh-copy-id
+  brew install git-cal imagemagick speedtest_cli zsh-syntax-highlighting
   brew install chruby ruby-install mongodb mysql postgresql redis node
   brew install syncthing
   brew cask install iterm2 sublime-text flux slack hosts launchrocket sequel-pro unrarx 1password dropbox

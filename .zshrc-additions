@@ -1,6 +1,22 @@
+# change these
+
 export DEFAULT_USER=ryanf
 ZSH_THEME="agnoster"
+plugins=(git wd brew)
 
-. `brew --prefix`/etc/profile.d/z.sh
+
+# Add the things below
 alias git-authers="git log --format'%aN" | sort -u
 alias reload!="source ~/.zshrc"
+alias speedtest="speedtest-cli"
+
+export EDITOR="vim"
+export DISABLE_AUTO_TITLE=true
+export GOPATH="$HOME/go"
+export PATH="$PATH:$GOPATH/bin"
+
+# only if you've install zsh syntax highlighting
+source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+# Allow [ or ] wherver you want
+unsetopt nomatch

@@ -1,0 +1,12 @@
+[user]
+  name = Ryan Faerman
+  email = ryan_faerman@ultimatesoftware.com
+[core]
+  excludesfile = ~/.gitignore
+	editor = /usr/local/bin/vim
+[push]
+  default = simple
+[help]
+  autocorrect = 1
+[alias]
+  st = status -sb

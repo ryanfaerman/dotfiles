@@ -6,6 +6,7 @@ I've never really found a good way to list the sublime packages I use so I just 
  - Coffeescript
  - Markdown Preview
  - Sass
+ - Solarized Color Scheme
 
 
 ## GoSublime
